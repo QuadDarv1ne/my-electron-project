@@ -1,0 +1,21 @@
+{
+  "name": "my-electron-project",
+  "version": "1.0.0",
+  "description": "**Создание приложения на Electron** — это отличный способ сделать кросс-платформенные настольные приложения с использованием веб-технологий.",
+  "main": "app/main/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^32.1.2"
+  },
+  "dependencies": {
+    "electron": "^32.1.2",
+    "electron-log": "^5.2.0",
+    "electron-store": "^10.0.0"
+  }
+}
